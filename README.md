@@ -37,3 +37,21 @@ core
 npx nx g @nrwl/angular:lib --simpleModuleName --directory=web/shared
 
 config
+
+### add web/shared/ui
+
+#### add web/shared/ui/web-layout
+
+npx nx g @nrwl/angular:lib --simpleModuleName --directory=web/shared/ui
+
+web-layout
+web-header
+web-sidebar
+web-main
+web-footer
+
+nx g @nrwl/angular:component web-layout --changeDetection=OnPush --style=none
+nx g @nrwl/angular:component web-header --changeDetection=OnPush --style=none
+nx g @nrwl/angular:component web-sidebar --changeDetection=OnPush --style=none
+nx g @nrwl/angular:component web-main --changeDetection=OnPush --style=none
+nx g @nrwl/angular:component web-footer --changeDetection=OnPush --style=none
