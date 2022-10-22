@@ -23,3 +23,11 @@ npx husky add .husky/pre-commit "npx lint-staged"
 git add .husky/pre-commit
 
 add lint-staged script to package.json
+
+### add web core
+
+#### web/core config forRoot modules
+
+npx nx g @nrwl/angular:lib --simpleModuleName --directory=web
+
+core
