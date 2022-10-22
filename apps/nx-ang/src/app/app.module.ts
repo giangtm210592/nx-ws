@@ -8,13 +8,15 @@ import { CoreModule } from '@nx-ws/web/core';
 import { AuthInterceptor } from '@nx-ws/web/shared/interceptors/auth-interceptor';
 import { getAppConfigProvider } from '@nx-ws/web/shared/config';
 import { environment } from '../environments/environment';
+import { LangInterceptor } from '@nx-ws/web/shared/interceptors/lang-interceptor';
 
 @NgModule({
   declarations: [AppComponent, NxWelcomeComponent],
   imports: [BrowserModule, HttpClientModule, CoreModule],
   providers: [
     getAppConfigProvider(environment),
-    { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true }
+    { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true },
+    { provide: HTTP_INTERCEPTORS, useClass: LangInterceptor, multi: true }
   ],
   bootstrap: [AppComponent]
 })

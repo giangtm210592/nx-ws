@@ -130,4 +130,8 @@ npx nx g @nrwl/angular:lib --simpleModuleName --directory=web/shared/interceptor
 
 auth-interceptor
 
+lang-interceptor
+
 ng g interceptor auth
+
+ng g interceptor lang

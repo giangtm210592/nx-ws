@@ -22,6 +22,7 @@
       "@nx-ws/web/shared/config": ["libs/web/shared/config/src/index.ts"],
       "@nx-ws/web/shared/constants": ["libs/web/shared/constants/src/index.ts"],
       "@nx-ws/web/shared/interceptors/auth-interceptor": ["libs/web/shared/interceptors/auth-interceptor/src/index.ts"],
+      "@nx-ws/web/shared/interceptors/lang-interceptor": ["libs/web/shared/interceptors/lang-interceptor/src/index.ts"],
       "@nx-ws/web/shared/models": ["libs/web/shared/models/src/index.ts"],
       "@nx-ws/web/shared/pipes/safe-html": ["libs/web/shared/pipes/safe-html/src/index.ts"],
       "@nx-ws/web/shared/pipes/safe-url": ["libs/web/shared/pipes/safe-url/src/index.ts"],
