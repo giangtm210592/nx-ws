@@ -135,3 +135,11 @@ lang-interceptor
 ng g interceptor auth
 
 ng g interceptor lang
+
+### add web/shared/guards
+
+npx nx g @nrwl/angular:lib --simpleModuleName --directory=web/shared/guards
+
+auth-guard
+
+ng g guard auth

@@ -1,5 +1,6 @@
 import { Route } from '@angular/router';
 import { WebLayoutComponent } from '@nx-ws/web/shared/ui/web-layout';
+import { AuthGuard } from '@nx-ws/web/shared/guards/auth-guard';
 
 export const webRoutes: Route[] = [
   {
@@ -17,7 +18,8 @@ export const webRoutes: Route[] = [
     children: [
       {
         path: 'home',
-        loadChildren: async () => (await import('@nx-ws/web/feat/home-page')).HomePageModule
+        loadChildren: async () => (await import('@nx-ws/web/feat/home-page')).HomePageModule,
+        canActivate: [AuthGuard]
       }
     ]
   }
