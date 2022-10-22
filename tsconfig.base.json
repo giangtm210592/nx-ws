@@ -24,6 +24,7 @@
       "@nx-ws/web/shared/pipes/safe-html": ["libs/web/shared/pipes/safe-html/src/index.ts"],
       "@nx-ws/web/shared/pipes/safe-url": ["libs/web/shared/pipes/safe-url/src/index.ts"],
       "@nx-ws/web/shared/services/destroy-service": ["libs/web/shared/services/destroy-service/src/index.ts"],
+      "@nx-ws/web/shared/services/http-service": ["libs/web/shared/services/http-service/src/index.ts"],
       "@nx-ws/web/shared/ui/web-footer": ["libs/web/shared/ui/web-footer/src/index.ts"],
       "@nx-ws/web/shared/ui/web-header": ["libs/web/shared/ui/web-header/src/index.ts"],
       "@nx-ws/web/shared/ui/web-layout": ["libs/web/shared/ui/web-layout/src/index.ts"],

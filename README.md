@@ -108,4 +108,8 @@ npx nx g @nrwl/angular:lib --simpleModuleName --directory=web/shared/services
 
 destroy-service
 
+http-service
+
 ng g s destroy
+
+ng g s http
