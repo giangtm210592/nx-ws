@@ -123,3 +123,11 @@ ng g s destroy
 ng g s http
 
 ng g s auth
+
+### add web/shared/interceptors
+
+npx nx g @nrwl/angular:lib --simpleModuleName --directory=web/shared/interceptors
+
+auth-interceptor
+
+ng g interceptor auth
