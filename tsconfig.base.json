@@ -16,6 +16,9 @@
     "baseUrl": ".",
     "paths": {
       "@nx-ws/web/core": ["libs/web/core/src/index.ts"],
+      "@nx-ws/web/feat/home-page": ["libs/web/feat/home-page/src/index.ts"],
+      "@nx-ws/web/feat/landing-page": ["libs/web/feat/landing-page/src/index.ts"],
+      "@nx-ws/web/feat/login-page": ["libs/web/feat/login-page/src/index.ts"],
       "@nx-ws/web/shared/config": ["libs/web/shared/config/src/index.ts"],
       "@nx-ws/web/shared/ui/web-footer": ["libs/web/shared/ui/web-footer/src/index.ts"],
       "@nx-ws/web/shared/ui/web-header": ["libs/web/shared/ui/web-header/src/index.ts"],
