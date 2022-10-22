@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'nx-ws-landing-page',
+  selector: 'tg-landing-page',
   templateUrl: './landing-page.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush
 })

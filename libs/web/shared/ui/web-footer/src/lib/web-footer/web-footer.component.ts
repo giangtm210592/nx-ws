@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'nx-ws-web-footer',
+  selector: 'tg-web-footer',
   templateUrl: './web-footer.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush
 })

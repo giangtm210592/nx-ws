@@ -10,7 +10,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "nxWs",
+            "prefix": "tg",
             "style": "camelCase"
           }
         ],
@@ -18,7 +18,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "nx-ws",
+            "prefix": "tg",
             "style": "kebab-case"
           }
         ]

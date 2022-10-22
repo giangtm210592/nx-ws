@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'nx-ws-web-sidebar',
+  selector: 'tg-web-sidebar',
   templateUrl: './web-sidebar.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush
 })

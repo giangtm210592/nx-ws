@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'nx-ws-web-header',
+  selector: 'tg-web-header',
   templateUrl: './web-header.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush
 })

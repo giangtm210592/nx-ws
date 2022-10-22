@@ -3,7 +3,7 @@
   "$schema": "../../../../../node_modules/nx/schemas/project-schema.json",
   "projectType": "library",
   "sourceRoot": "libs/web/shared/ui/web-sidebar/src",
-  "prefix": "nx-ws",
+  "prefix": "tg",
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
