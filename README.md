@@ -26,7 +26,7 @@ add lint-staged script to package.json
 
 ### add web core
 
-#### web/core config forRoot modules
+#### add web/core config forRoot modules
 
 npx nx g @nrwl/angular:lib --simpleModuleName --directory=web
 
@@ -83,3 +83,9 @@ nx g @nrwl/angular:component landing-page --changeDetection=OnPush --style=none
 nx g @nrwl/angular:component login-page --changeDetection=OnPush --style=none
 
 nx g @nrwl/angular:component home-page --changeDetection=OnPush --style=none
+
+### add web/shared/constants
+
+npx nx g @nrwl/angular:lib --simpleModuleName --directory=web/shared
+
+constants
