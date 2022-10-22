@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-ws/web/core": ["libs/web/core/src/index.ts"]
+      "@nx-ws/web/core": ["libs/web/core/src/index.ts"],
+      "@nx-ws/web/shared/config": ["libs/web/shared/config/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

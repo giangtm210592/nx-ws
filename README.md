@@ -31,3 +31,9 @@ add lint-staged script to package.json
 npx nx g @nrwl/angular:lib --simpleModuleName --directory=web
 
 core
+
+### add web/shared/config for injection token for environment
+
+npx nx g @nrwl/angular:lib --simpleModuleName --directory=web/shared
+
+config
