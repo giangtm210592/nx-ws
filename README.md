@@ -54,6 +54,8 @@ web-main
 
 web-footer
 
+--> web/shared/ui/\*\*/src/lib
+
 nx g @nrwl/angular:component web-layout --changeDetection=OnPush --style=none
 
 nx g @nrwl/angular:component web-header --changeDetection=OnPush --style=none
@@ -73,6 +75,8 @@ landing-page
 login-page
 
 home-page
+
+--> web/feat/\*\*/src/lib
 
 nx g @nrwl/angular:component landing-page --changeDetection=OnPush --style=none
 
