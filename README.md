@@ -89,3 +89,15 @@ nx g @nrwl/angular:component home-page --changeDetection=OnPush --style=none
 npx nx g @nrwl/angular:lib --simpleModuleName --directory=web/shared
 
 constants
+
+### add web/shared/pipes
+
+npx nx g @nrwl/angular:lib --simpleModuleName --directory=web/shared/pipes
+
+safe-html
+
+safe-url
+
+ng g pipe safe-html
+
+ng g pipe safe-url

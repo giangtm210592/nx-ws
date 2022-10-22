@@ -21,6 +21,8 @@
       "@nx-ws/web/feat/login-page": ["libs/web/feat/login-page/src/index.ts"],
       "@nx-ws/web/shared/config": ["libs/web/shared/config/src/index.ts"],
       "@nx-ws/web/shared/constants": ["libs/web/shared/constants/src/index.ts"],
+      "@nx-ws/web/shared/pipes/safe-html": ["libs/web/shared/pipes/safe-html/src/index.ts"],
+      "@nx-ws/web/shared/pipes/safe-url": ["libs/web/shared/pipes/safe-url/src/index.ts"],
       "@nx-ws/web/shared/ui/web-footer": ["libs/web/shared/ui/web-footer/src/index.ts"],
       "@nx-ws/web/shared/ui/web-header": ["libs/web/shared/ui/web-header/src/index.ts"],
       "@nx-ws/web/shared/ui/web-layout": ["libs/web/shared/ui/web-layout/src/index.ts"],
