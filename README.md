@@ -102,6 +102,12 @@ ng g pipe safe-html
 
 ng g pipe safe-url
 
+### add web/shared/models
+
+npx nx g @nrwl/angular:lib --simpleModuleName --directory=web/shared
+
+models
+
 ### add web/shared/services
 
 npx nx g @nrwl/angular:lib --simpleModuleName --directory=web/shared/services
@@ -110,6 +116,10 @@ destroy-service
 
 http-service
 
+auth-service
+
 ng g s destroy
 
 ng g s http
+
+ng g s auth
