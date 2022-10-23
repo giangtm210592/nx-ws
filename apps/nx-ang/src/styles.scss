@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+// abstracts
+@import 'styles/abstracts/functions';
+@import 'styles/abstracts/mixins';
+@import 'styles/abstracts/variables';
+
+// base
+@import 'styles/base/font-faces';
+@import 'styles/base/typography';
+@import 'styles/base/base';
+@import 'styles/base/utilities';
+@import 'styles/base/animations';
+
+// layout
+@import 'styles/layout/web-layout';
+@import 'styles/layout/web-header';
+@import 'styles/layout/web-sidebar';
+@import 'styles/layout/web-footer';
+
+// components
+@import 'styles/components/card';
+@import 'styles/components/button';
+
+// pages
+@import 'styles/pages/landing-page';
+@import 'styles/pages/login-page';
+@import 'styles/pages/home-page';

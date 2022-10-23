@@ -1,0 +1,58 @@
+.tg-btn {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 9999px;
+  border: none;
+  height: 3.6rem;
+  padding: 0 1.8rem;
+  font-weight: 700;
+  font-size: 1.4rem;
+  white-space: nowrap;
+  background-color: $surface-card;
+  color: $text-color-primary;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+
+  &--default {
+    &:hover {
+      background-color: $surface-hover;
+      color: $primary-color;
+    }
+  }
+
+  &--primary {
+    background-color: $primary-color;
+    color: $primary-color-text;
+
+    &:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  &--secondary {
+    background-color: $secondary-color;
+    color: $secondary-color-text;
+
+    &:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  &--lg {
+    height: 4.8rem;
+    padding: 2.4rem;
+    font-size: 1.8rem;
+  }
+
+  &--linear {
+    color: #fff;
+    background-image: linear-gradient(to right, #000000 0%, #53346d 51%, #000000 100%);
+    background-size: 200% auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+      background-position: right center;
+      text-decoration: none;
+    }
+  }
+}

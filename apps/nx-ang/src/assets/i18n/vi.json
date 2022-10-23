@@ -1,0 +1,52 @@
+{
+  "common": {
+    "add": "Thêm mới",
+    "ago": "trước",
+    "aSecondAgo": "vừa xong",
+    "all": "Tất cả",
+    "back": "Quay lại",
+    "cancel": "Hủy",
+    "close": "Đóng",
+    "confirm": "Xác nhận",
+    "continue": "Tiếp tục",
+    "create": "Tạo mới",
+    "delete": "Xóa",
+    "detail": "Chi tiết",
+    "edit": "Sửa",
+    "from": "Từ",
+    "next": "Tiếp tục",
+    "noData": "Chưa có dữ liệu",
+    "ok": "OK",
+    "reset": "Xóa",
+    "save": "Lưu",
+    "search": "Tìm kiếm",
+    "submit": "Gửi đi",
+    "to": "đến",
+    "update": "Cập nhật",
+    "view": "Xem",
+    "view_more": "Xem thêm"
+  },
+  "theme": {
+    "dark": "Tối",
+    "light": "Sáng"
+  },
+  "i18n": {
+    "languages": "Ngôn ngữ",
+    "vietnamese": "Tiếng Việt",
+    "english": "English"
+  },
+  "auth": {
+    "login": "Đăng nhập",
+    "register": "Đăng ký",
+    "logout": "Đăng xuất",
+    "userName": "Tên đăng nhập",
+    "password": "Mật khẩu",
+    "usernameRequired": "Tên đăng nhập không được trống!",
+    "passwordRequired": "Mật khẩu không được trống!",
+    "loginFailed": "Tên đăng nhập hoặc mật khẩu không đúng!",
+    "rememberMe": "Nhớ tên đăng nhập",
+    "forgotPassword": "Quên mật khẩu?",
+    "loginWithFacebook": "Đăng nhập bằng Facebook",
+    "loginWithGoogle": "Đăng nhập bằng Google"
+  }
+}

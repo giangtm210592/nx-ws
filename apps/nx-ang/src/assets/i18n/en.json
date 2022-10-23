@@ -1,0 +1,52 @@
+{
+  "common": {
+    "add": "Add",
+    "ago": "ago",
+    "all": "All",
+    "aSecondAgo": "a second ago",
+    "back": "Back",
+    "cancel": "Cancel",
+    "close": "Close",
+    "confirm": "Confirm",
+    "continue": "Continue",
+    "create": "Create",
+    "delete": "Delete",
+    "detail": "Detail",
+    "edit": "Edit",
+    "from": "From",
+    "next": "Next",
+    "noData": "No data",
+    "ok": "OK",
+    "reset": "Reset",
+    "save": "Save",
+    "search": "Search",
+    "submit": "Submit",
+    "to": "to",
+    "update": "Update",
+    "view": "View",
+    "view_more": "View more"
+  },
+  "theme": {
+    "dark": "Dark",
+    "light": "Light"
+  },
+  "i18n": {
+    "languages": "Languages",
+    "vietnamese": "Vietnamese",
+    "english": "English"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "username": "Username",
+    "password": "Password",
+    "usernameRequired": "Username is required!",
+    "passwordRequired": "Password is required!",
+    "loginFailed": "Incorrect username or password!",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "loginWithFacebook": "Login with Facebook",
+    "loginWithGoogle": "Login with Google"
+  }
+}

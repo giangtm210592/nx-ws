@@ -1,0 +1,149 @@
+tg-landing-page {
+  .ld-header-wrapper {
+    background-color: $surface-ground;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: $z-index-fixed;
+  }
+
+  .ld-header {
+    height: $landing-header-height;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__logo {
+      width: 3.2rem;
+      height: 3.2rem;
+    }
+  }
+
+  .ld-header-nav {
+    &__item {
+      display: inline-block;
+      padding: 0.5rem 2rem;
+      cursor: pointer;
+      border-radius: 9999px;
+
+      &:hover {
+        background-color: $surface-hover;
+
+        .ld-header-nav {
+          &__link {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+
+    &__link {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: $text-color-primary;
+    }
+  }
+
+  .ld-main {
+    min-height: 100%;
+    padding-top: $landing-header-height;
+  }
+
+  .art-header-wrapper {
+    margin-top: 3rem;
+    padding: 6rem 0;
+    background: url('../../assets/images/waves-bg.svg') no-repeat 50%;
+    background-size: contain;
+  }
+
+  .art-header {
+    &__text {
+      display: inline-block;
+
+      &--simple {
+        @include linearGradientText(to right, $info-color, $warning-color);
+      }
+
+      &--smart {
+        @include linearGradientText(to right, $warning-color, $danger-color);
+      }
+
+      &--strong {
+        @include linearGradientText(to right, $danger-color, $help-color);
+      }
+    }
+  }
+
+  .one-piece {
+    background-image: url('../../assets/images/city-wp.jpg');
+    background-size: cover;
+    height: 50rem;
+    flex: 1;
+  }
+
+  .art-start-wrapper {
+    margin-top: 8rem;
+    padding: 8rem 0;
+    background-color: var(--surface-hover);
+  }
+
+  .art-start {
+    display: flex;
+    align-items: center;
+
+    &__get-started {
+      width: 45%;
+      margin-right: 6rem;
+    }
+
+    &__info {
+      flex: 1;
+    }
+  }
+
+  .art-customer-wrapper {
+    padding: 1rem 0;
+    background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
+  }
+
+  .art-customer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .icon-box {
+      padding: 6rem;
+
+      &:hover {
+        border-radius: 1rem;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+
+        i {
+          transform: scale(2) rotate(360deg);
+          transition: transform 1s;
+        }
+      }
+    }
+
+    i {
+      font-size: 6rem;
+      line-height: 6rem;
+    }
+  }
+
+  .ld-footer-wrapper {
+    background-color: $surface-hover;
+  }
+
+  .ld-footer {
+    padding: 6rem 0;
+
+    &__copy-right {
+      text-align: center;
+      font-weight: 700;
+    }
+  }
+}

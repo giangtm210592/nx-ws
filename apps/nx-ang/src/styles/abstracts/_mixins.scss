@@ -1,0 +1,44 @@
+@mixin clearfix {
+  &::after {
+    display: block;
+    content: '';
+    clear: both;
+  }
+}
+
+@mixin media-up($breakpoint) {
+  // Extra small devices (portrait phones, less than 576px)
+  @if $breakpoint == xs {
+    @content;
+  }
+  // Small devices (landscape phones, 576px and up)
+  @if $breakpoint == sm {
+    @media (min-width: 576px) {
+      @content;
+    }
+  }
+  // Medium devices (tablets, 768px and up)
+  @if $breakpoint == md {
+    @media (min-width: 768px) {
+      @content;
+    }
+  }
+  // Large devices (desktops, 992px and up)
+  @if $breakpoint == lg {
+    @media (min-width: 992px) {
+      @content;
+    }
+  }
+  // Extra large devices (large desktops, 1200px and up)
+  @if $breakpoint == xl {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  }
+}
+
+@mixin linearGradientText($direction, $fromColor, $toColor) {
+  color: transparent;
+  background: linear-gradient($direction, $fromColor, $toColor);
+  -webkit-background-clip: text;
+}
