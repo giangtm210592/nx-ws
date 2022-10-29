@@ -3,45 +3,47 @@
     <div class="flex overflow-hidden rounded-2xl shadow-lg shadow-slate-300">
       <div class="flex flex-col items-center justify-center bg-blue-400 p-8 text-white">
         <img src="assets/images/logo.svg" alt="logo" class="my-6 h-16 w-16" />
-        <h3 class="my-3 text-center text-4xl text-white">Hello friend!</h3>
-        <p class="text-center text-lg text-slate-100">Enter your email and password and start journey with us</p>
+        <h3 class="my-3 text-center text-4xl text-white">{{ 'login.welcome' | transloco }}</h3>
+        <p class="text-center text-lg text-slate-100">{{ 'login.guide' | transloco }}</p>
       </div>
       <div class="p-8 text-slate-900">
         <form novalidate class="login-form">
-          <h3 class="mb-6 text-center text-4xl">Sign in</h3>
+          <h3 class="mb-6 text-center text-4xl">{{ 'login.title' | transloco }}</h3>
           <div class="my-3 flex justify-center">
             <span
               class="mr-2 inline-flex cursor-pointer items-center justify-center rounded-full p-1 text-3xl shadow-lg shadow-slate-200 active:-translate-y-0.5"
             >
-              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-facebook duration-300 ease-in hover:scale-110"></i>
             </span>
             <span
               class="inline-flex cursor-pointer items-center justify-center rounded-full p-1 text-3xl shadow-lg shadow-slate-200 active:-translate-y-0.5"
             >
-              <i class="fa-brands fa-google"></i>
+              <i class="fa-brands fa-google duration-300 ease-in hover:scale-110"></i>
             </span>
           </div>
-          <div class="my-2 text-base text-slate-500">Or use your email account:</div>
+          <div class="my-3 text-base text-slate-500">{{ 'login.useEmail' | transloco }}</div>
           <input
             type="text"
-            placeholder="Email"
+            placeholder="{{ 'login.email' | transloco }}"
+            autocomplete="off"
             class="my-1 w-full rounded-md border-2 border-blue-100 px-2 py-1 focus:border-blue-300 focus:outline-none"
           />
           <input
             type="password"
-            placeholder="Password"
+            placeholder="{{ 'login.password' | transloco }}"
+            autocomplete="off"
             class="my-1 w-full rounded-md border-2 border-blue-100 px-2 py-1 focus:border-blue-300 focus:outline-none"
           />
-          <a href="#" class="mt-4 inline-block text-base text-blue-600 visited:text-purple-600"
-            >Forgot your password?</a
-          >
+          <a href="#" class="mt-4 inline-block text-base text-blue-600 visited:text-purple-600">{{
+            'login.forgotPw' | transloco
+          }}</a>
           <div class="flex justify-center">
             <button
               type="button"
-              class="mt-8 block rounded-full bg-blue-400 py-1 px-12 text-xl uppercase text-white active:-translate-y-0.5"
+              class="mt-8 block rounded-full bg-blue-400 py-2 px-12 text-xl uppercase text-white hover:bg-blue-500 active:-translate-y-0.5"
               (click)="login()"
             >
-              Login
+              {{ 'login.title' | transloco }}
             </button>
           </div>
         </form>

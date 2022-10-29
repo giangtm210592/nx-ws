@@ -151,3 +151,9 @@ npx nx g @nrwl/angular:lib --simpleModuleName --directory=web/shared/guards
 auth-guard
 
 ng g guard auth
+
+### add @ngneat/transloco
+
+npm i @ngneat/transloco
+
+npx nx g @ngneat/transloco:ng-add --project=nx-ang

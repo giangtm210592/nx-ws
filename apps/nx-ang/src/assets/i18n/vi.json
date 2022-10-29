@@ -35,18 +35,14 @@
     "vietnamese": "Tiếng Việt",
     "english": "English"
   },
-  "auth": {
-    "login": "Đăng nhập",
-    "register": "Đăng ký",
-    "logout": "Đăng xuất",
-    "userName": "Tên đăng nhập",
+  "login": {
+    "welcome": "Chào bạn!",
+    "guide": "Nhập email và mật khẩu của bạn và bắt đầu hành trình với chúng tôi",
+    "title": "Đăng nhập",
+    "useEmail": "Hoặc sử dụng tài khoản email của bạn:",
+    "email": "Thư điện tử",
     "password": "Mật khẩu",
-    "usernameRequired": "Tên đăng nhập không được trống!",
-    "passwordRequired": "Mật khẩu không được trống!",
-    "loginFailed": "Tên đăng nhập hoặc mật khẩu không đúng!",
-    "rememberMe": "Nhớ tên đăng nhập",
-    "forgotPassword": "Quên mật khẩu?",
-    "loginWithFacebook": "Đăng nhập bằng Facebook",
-    "loginWithGoogle": "Đăng nhập bằng Google"
+    "forgotPw": "Quên mật khẩu?",
+    "submit": "Đăng nhập"
   }
 }
