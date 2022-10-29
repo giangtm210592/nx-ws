@@ -1,4 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 // abstracts
 @import 'styles/abstracts/functions';
@@ -13,16 +16,11 @@
 @import 'styles/base/animations';
 
 // layout
-@import 'styles/layout/web-layout';
-@import 'styles/layout/web-header';
 @import 'styles/layout/web-sidebar';
-@import 'styles/layout/web-footer';
 
 // components
-@import 'styles/components/card';
 @import 'styles/components/button';
+@import 'styles/components/input';
+@import 'styles/components/icon';
 
 // pages
-@import 'styles/pages/landing-page';
-@import 'styles/pages/login-page';
-@import 'styles/pages/home-page';

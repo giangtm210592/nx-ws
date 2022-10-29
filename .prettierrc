@@ -1,4 +1,5 @@
 {
+  "plugins": ["prettier-plugin-tailwindcss"],
   "bracketSpacing": true,
   "endOfLine": "auto",
   "printWidth": 120,

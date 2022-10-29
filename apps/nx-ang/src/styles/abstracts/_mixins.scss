@@ -35,6 +35,13 @@
       @content;
     }
   }
+
+  // Extra large devices (large desktops, 1920px and up)
+  @if $breakpoint == xxl {
+    @media (min-width: 1920px) {
+      @content;
+    }
+  }
 }
 
 @mixin linearGradientText($direction, $fromColor, $toColor) {

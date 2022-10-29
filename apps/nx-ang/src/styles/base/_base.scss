@@ -9,8 +9,6 @@
 html,
 body {
   height: 100%;
-  background: $surface-ground;
-  color: $text-color-primary;
 }
 
 body {
@@ -29,30 +27,4 @@ ul,
 li {
   margin: 0;
   padding: 0;
-}
-
-.container {
-  @include media-up(xs) {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  @include media-up(sm) {
-    max-width: 540px;
-  }
-
-  @include media-up(md) {
-    max-width: 720px;
-  }
-
-  @include media-up(lg) {
-    max-width: 960px;
-  }
-
-  @include media-up(xl) {
-    max-width: 1140px;
-  }
 }

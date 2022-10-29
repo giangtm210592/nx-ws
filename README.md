@@ -24,6 +24,14 @@ git add .husky/pre-commit
 
 add lint-staged script to package.json
 
+### setup tailwind
+
+https://nx.dev/packages/angular/generators/setup-tailwind
+
+nx g @nrwl/angular:setup-tailwind nx-ang
+
+npm install -D prettier prettier-plugin-tailwindcss
+
 ### add web core
 
 #### add web/core config forRoot modules

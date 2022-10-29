@@ -1,10 +1,12 @@
 // FONT
-$default-font-size: 1.4rem;
+$default-font-size: 1.2rem;
 $font-family: Roboto, Arial, Helvetica, sans-serif;
 
 // SIZE
 $landing-header-height: 6rem;
-$sidebar-width: 15rem;
+$sidebar-width: 18rem;
+$main-padding: 3rem;
+$tg-card-padding: 3rem;
 
 // z-index
 $z-index-dropdown: 1000 !default;
@@ -19,7 +21,7 @@ $z-index-tooltip: 1070 !default;
 html[data-theme='light'] {
   --text-color-primary: #495057;
   --text-color-secondary: #6c757d;
-  --surface-ground: #ffffff;
+  --surface-ground: #eff3f8;
   --surface-card: #ffffff;
   --surface-border: #dfe7ef;
   --surface-hover: #f6f9fc;
@@ -41,8 +43,8 @@ html[data-theme='light'] {
 }
 
 html[data-theme='dark'] {
-  --text-color-primary: rgba(255, 255, 255, 0.87);
-  --text-color-secondary: rgba(255, 255, 255, 0.6);
+  --text-color-primary: #ffffffdd;
+  --text-color-secondary: #ffffff99;
   --surface-ground: #040d19; // #eff3f8
   --surface-card: #071426;
   --surface-border: #0b213f;

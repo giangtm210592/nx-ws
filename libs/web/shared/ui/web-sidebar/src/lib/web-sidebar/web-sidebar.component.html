@@ -1,1 +1,30 @@
-<p>web-sidebar works!</p>
+<div class="bg-slate-100 min-h-screen min-w-200">
+  <nav>
+    <div class="flex items-center py-3 px-4">
+      <img class="w-auto h-12 mr-1" src="assets/images/logo.svg" alt="logo">
+      <span class="text-lg text-blue-500">Hi, admin</span>
+    </div>
+    <ul class="overflow-auto overscroll-contain">
+      <li class="flex items-center py-3 cursor-pointer hover:bg-slate-200 px-4" routerLink="home" routerLinkActive="active">
+        <i class="text-base min-w-24 fa-solid fa-house"></i>
+        <span class="ml-2 text-base">Home</span>
+      </li>
+      <li class="flex items-center py-3 cursor-pointer hover:bg-slate-200 px-4" routerLink="feat-1" routerLinkActive="active">
+        <i class="text-base min-w-24 fa-solid fa-database"></i>
+        <span class="ml-2 text-base">Feat 1</span>
+      </li>
+      <li class="flex items-center py-3 cursor-pointer hover:bg-slate-200 px-4" routerLink="feat-2" routerLinkActive="active">
+        <i class="text-base min-w-24 fa-solid fa-sitemap"></i>
+        <span class="ml-2 text-base">Feat 2</span>
+      </li>
+      <li class="flex items-center py-3 cursor-pointer hover:bg-slate-200 px-4" routerLink="feat-3" routerLinkActive="active">
+        <i class="text-base min-w-24 fa-solid fa-people-group"></i>
+        <span class="ml-2 text-base">Feat 3</span>
+      </li>
+      <li class="flex items-center py-3 cursor-pointer hover:bg-slate-200 px-4" routerLink="feat-4" routerLinkActive="active">
+        <i class="text-base min-w-24 fa-solid fa-circle-info"></i>
+        <span class="ml-2 text-base">Feat 4</span>
+      </li>
+    </ul>
+  </nav>
+</div>

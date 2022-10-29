@@ -1,69 +1,76 @@
-<header class="ld-header-wrapper">
+<header class="shadow-xl sticky top-0 z-30 bg-white">
   <div class="container">
-    <div class="ld-header">
-      <img src="assets/images/logo.svg" alt="logo" class="ld-header__logo">
-      <nav class="ld-header-nav">
-        <ul class="ld-header-nav__list">
-          <li class="ld-header-nav__item">
-            <a routerLink="link-1" routerLinkActive="active" class="ld-header-nav__link">Feat 1</a>
+    <div class="flex justify-between items-center py-2">
+      <img src="assets/images/logo.svg" alt="logo" class="w-8 h-8">
+      <nav>
+        <ul>
+          <li class="inline-block py-1 cursor-pointer px-6 rounded-full hover:bg-slate-100">
+            <a class="font-semibold" routerLink="link-1" routerLinkActive="active">Feat 1</a>
           </li>
-          <li class="ld-header-nav__item">
-            <a routerLink="link-1" routerLinkActive="active" class="ld-header-nav__link">Feat 2</a>
+          <li class="inline-block py-1 cursor-pointer px-6 rounded-full hover:bg-slate-100">
+            <a class="font-semibold" routerLink="link-1" routerLinkActive="active">Feat 2</a>
           </li>
-          <li class="ld-header-nav__item">
-            <a routerLink="link-1" routerLinkActive="active" class="ld-header-nav__link">Feat 3</a>
+          <li class="inline-block py-1 cursor-pointer px-6 rounded-full hover:bg-slate-100">
+            <a class="font-semibold" routerLink="link-1" routerLinkActive="active">Feat 3</a>
           </li>
-          <li class="ld-header-nav__item">
-            <a routerLink="link-1" routerLinkActive="active" class="ld-header-nav__link">Feat 4</a>
+          <li class="inline-block py-1 cursor-pointer px-6 rounded-full hover:bg-slate-100">
+            <a class="font-semibold" routerLink="link-1" routerLinkActive="active">Feat 4</a>
           </li>
-          <li class="ld-header-nav__item">
-            <a routerLink="link-1" routerLinkActive="active" class="ld-header-nav__link">Feat 5</a>
+          <li class="inline-block py-1 cursor-pointer px-6 rounded-full hover:bg-slate-100">
+            <a class="font-semibold" routerLink="link-1" routerLinkActive="active">Feat 5</a>
           </li>
         </ul>
       </nav>
-      <div class="ld-header__action">
-        <button type="button" class="tg-btn tg-btn--default mr-1">Login</button>
-        <button type="button" class="tg-btn tg-btn--primary">Register</button>
+      <div class="flex items-center">
+        <div class="flex justify-end items-center relative">
+          <i class="fa-solid fa-magnifying-glass absolute mr-2 w-10"></i>
+          <input class="border border-gray-400 rounded-full py-1 pl-4 pr-14 w-full" placeholder="Search"/>
+        </div>
+        <button
+          routerLink="login"
+          type="button"
+          class="rounded-full bg-white px-6 py-1 hover:bg-slate-100 font-medium ml-2"
+        >
+          Login
+        </button>
+        <button
+          routerLink="register" type="button"
+          class="rounded-full bg-blue-500 hover:bg-blue-600 px-6 py-1 text-white ml-2 font-medium"
+        >
+          Register
+        </button>
       </div>
     </div>
   </div>
 </header>
 
-<main class="ld-main">
-  <article class="art-header-wrapper">
+<main>
+  <article class="bg-waves bg-no-repeat bg-cover py-12 my-8">
     <div class="container">
-      <div class="flex-center-y">
-        <h1 class="mr-9">
-        <span class="d-block">
-          <span class="art-header__text art-header__text--simple">Simple,</span>
-        </span>
-          <span class="d-block">
-          <span class="art-header__text art-header__text--smart">Smart,</span>
-        </span>
-          <span class="d-block">
-          <span class="art-header__text art-header__text--strong">Strong</span>
-        </span>
+      <div class="flex items-center">
+        <h1 class="tg-text-shadow w-2/5 pr-16 text-6xl">
+          Lorem ipsum dolor sit amet.
         </h1>
-        <div class="tg-card one-piece"></div>
+        <div class="w-3/5 shadow-lg shadow-slate-100 bg-city bg-no-repeat bg-cover flex-1 h-140 rounded-lg shadow-lg shadow-slate-300"></div>
       </div>
     </div>
   </article>
-  <article class="art-start-wrapper">
+  <article class="py-16 bg-slate-50">
     <div class="container">
-      <div class="art-start">
-        <div class="art-start__get-started">
-          <h2 class="mb-2">
+      <div class="flex items-center">
+        <div class="w-1/2 pr-12">
+          <h2 class="tg-text-shadow mb-2 text-4xl">
             Why do we use it?
           </h2>
           <p class="mb-2">
             It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
           </p>
-          <button class="tg-btn tg-btn--linear tg-btn--lg">Get Started</button>
+          <button class="ease-in duration-300 bg-2/1-auto hover:bg-right rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 mt-4 py-2 px-6 text-white active:-translate-y-0.5 uppercase font-semibold">Get Started</button>
         </div>
-        <div class="art-start__info">
-          <div class="card">
-            <h2 class="mb-2">What is Lorem Ipsum?</h2>
-            <p>
+        <div class="w-1/2">
+          <div class="shadow-lg rounded-lg shadow-slate-300 p-10 bg-white">
+            <h2 class="tg-text-shadow mb-2 text-4xl">What is Lorem Ipsum?</h2>
+            <p class="text-justify">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
           </div>
@@ -71,54 +78,12 @@
       </div>
     </div>
   </article>
-  <article class="art-customer-wrapper">
-    <div class="container">
-      <div class="art-customer">
-        <div class="icon-box">
-          <i class="fa-brands fa-facebook"></i>
-        </div>
-        <div class="icon-box">
-          <i class="fa-brands fa-twitter"></i>
-        </div>
-        <div class="icon-box">
-          <i class="fa-brands fa-apple"></i>
-        </div>
-        <div class="icon-box">
-          <i class="fa-brands fa-figma"></i>
-        </div>
-        <div class="icon-box">
-          <i class="fa-brands fa-slack"></i>
-        </div>
-        <div class="icon-box">
-          <i class="fa-brands fa-wordpress"></i>
-        </div>
-        <div class="icon-box">
-          <i class="fa-brands fa-youtube"></i>
-        </div>
-        <div class="icon-box">
-          <i class="fa-brands fa-docker"></i>
-        </div>
-        <div class="icon-box">
-          <i class="fa-brands fa-github"></i>
-        </div>
-        <div class="icon-box">
-          <i class="fa-brands fa-linkedin"></i>
-        </div>
-        <div class="icon-box">
-          <i class="fa-brands fa-tiktok"></i>
-        </div>
-        <div class="icon-box">
-          <i class="fa-brands fa-google"></i>
-        </div>
-      </div>
-    </div>
-  </article>
 </main>
 
-<footer class="ld-footer-wrapper">
+<footer class="bg-slate-100">
   <div class="container">
-    <div class="ld-footer">
-      <div class="ld-footer__copy-right">
+    <div class="py-8">
+      <div class="text-center">
         ©2022 Powered by TMG
       </div>
     </div>
