@@ -1,41 +1,42 @@
-<header class="shadow-xl sticky top-0 z-30 bg-white">
+<header class="sticky top-0 z-30 bg-white shadow-xl">
   <div class="container">
-    <div class="flex justify-between items-center py-2">
-      <img src="assets/images/logo.svg" alt="logo" class="w-8 h-8">
+    <div class="flex items-center justify-between py-2">
+      <img src="assets/images/logo.svg" alt="logo" class="h-8 w-8" />
       <nav>
         <ul>
-          <li class="inline-block py-1 cursor-pointer px-6 rounded-full hover:bg-slate-100">
+          <li class="inline-block cursor-pointer rounded-full py-1 px-6 hover:bg-slate-100">
             <a class="font-semibold" routerLink="link-1" routerLinkActive="active">Feat 1</a>
           </li>
-          <li class="inline-block py-1 cursor-pointer px-6 rounded-full hover:bg-slate-100">
+          <li class="inline-block cursor-pointer rounded-full py-1 px-6 hover:bg-slate-100">
             <a class="font-semibold" routerLink="link-1" routerLinkActive="active">Feat 2</a>
           </li>
-          <li class="inline-block py-1 cursor-pointer px-6 rounded-full hover:bg-slate-100">
+          <li class="inline-block cursor-pointer rounded-full py-1 px-6 hover:bg-slate-100">
             <a class="font-semibold" routerLink="link-1" routerLinkActive="active">Feat 3</a>
           </li>
-          <li class="inline-block py-1 cursor-pointer px-6 rounded-full hover:bg-slate-100">
+          <li class="inline-block cursor-pointer rounded-full py-1 px-6 hover:bg-slate-100">
             <a class="font-semibold" routerLink="link-1" routerLinkActive="active">Feat 4</a>
           </li>
-          <li class="inline-block py-1 cursor-pointer px-6 rounded-full hover:bg-slate-100">
+          <li class="inline-block cursor-pointer rounded-full py-1 px-6 hover:bg-slate-100">
             <a class="font-semibold" routerLink="link-1" routerLinkActive="active">Feat 5</a>
           </li>
         </ul>
       </nav>
       <div class="flex items-center">
-        <div class="flex justify-end items-center relative">
+        <div class="relative flex items-center justify-end">
           <i class="fa-solid fa-magnifying-glass absolute mr-2 w-10"></i>
-          <input class="border border-gray-400 rounded-full py-1 pl-4 pr-14 w-full" placeholder="Search"/>
+          <input class="w-full rounded-full border border-gray-400 py-1 pl-4 pr-14" placeholder="Search" />
         </div>
         <button
           routerLink="login"
           type="button"
-          class="rounded-full bg-white px-6 py-1 hover:bg-slate-100 font-medium ml-2"
+          class="ml-2 rounded-full bg-white px-6 py-1 font-medium hover:bg-slate-100"
         >
           Login
         </button>
         <button
-          routerLink="register" type="button"
-          class="rounded-full bg-blue-500 hover:bg-blue-600 px-6 py-1 text-white ml-2 font-medium"
+          routerLink="register"
+          type="button"
+          class="ml-2 rounded-full bg-blue-500 px-6 py-1 font-medium text-white hover:bg-blue-600"
         >
           Register
         </button>
@@ -45,33 +46,41 @@
 </header>
 
 <main>
-  <article class="bg-waves bg-no-repeat bg-cover py-12 my-8">
+  <article class="bg-waves my-8 bg-cover bg-no-repeat py-12">
     <div class="container">
       <div class="flex items-center">
-        <h1 class="tg-text-shadow w-2/5 pr-16 text-6xl">
-          Lorem ipsum dolor sit amet.
-        </h1>
-        <div class="w-3/5 shadow-lg shadow-slate-100 bg-city bg-no-repeat bg-cover flex-1 h-140 rounded-lg shadow-lg shadow-slate-300"></div>
+        <h1 class="tg-text-shadow w-2/5 pr-16 text-6xl">Lorem ipsum dolor sit amet.</h1>
+        <div
+          class="bg-city h-140 w-3/5 flex-1 rounded-lg bg-cover bg-no-repeat shadow-lg shadow-lg shadow-slate-100 shadow-slate-300"
+        ></div>
       </div>
     </div>
   </article>
-  <article class="py-16 bg-slate-50">
+  <article class="bg-slate-50 py-16">
     <div class="container">
       <div class="flex items-center">
         <div class="w-1/2 pr-12">
-          <h2 class="tg-text-shadow mb-2 text-4xl">
-            Why do we use it?
-          </h2>
+          <h2 class="tg-text-shadow mb-2 text-4xl">Why do we use it?</h2>
           <p class="mb-2">
-            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+            It is a long established fact that a reader will be distracted by the readable content of a page when
+            looking at its layout.
           </p>
-          <button class="ease-in duration-300 bg-2/1-auto hover:bg-right rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 mt-4 py-2 px-6 text-white active:-translate-y-0.5 uppercase font-semibold">Get Started</button>
+          <button
+            class="bg-2/1-auto mt-4 rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 py-2 px-6 font-semibold uppercase text-white duration-300 ease-in hover:bg-right active:-translate-y-0.5"
+          >
+            Get Started
+          </button>
         </div>
         <div class="w-1/2">
-          <div class="shadow-lg rounded-lg shadow-slate-300 p-10 bg-white">
+          <div class="rounded-lg bg-white p-10 shadow-lg shadow-slate-300">
             <h2 class="tg-text-shadow mb-2 text-4xl">What is Lorem Ipsum?</h2>
             <p class="text-justify">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
+              of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
+              like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
           </div>
         </div>
@@ -83,9 +92,7 @@
 <footer class="bg-slate-100">
   <div class="container">
     <div class="py-8">
-      <div class="text-center">
-        ©2022 Powered by TMG
-      </div>
+      <div class="text-center">©2022 Powered by TMG</div>
     </div>
   </div>
 </footer>
