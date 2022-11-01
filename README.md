@@ -152,8 +152,22 @@ auth-guard
 
 ng g guard auth
 
+### add web/shared/directives
+
+npx nx g @nrwl/angular:lib --simpleModuleName --directory=web/shared/directives
+
+click-outside
+
+ng g directive click-outside
+
 ### add @ngneat/transloco
 
 npm i @ngneat/transloco
 
 npx nx g @ngneat/transloco:ng-add --project=nx-ang
+
+### add @angular/material
+
+npm i @angular/material
+
+npx nx g @angular/material:ng-add --project=nx-ang

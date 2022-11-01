@@ -21,6 +21,7 @@
       "@nx-ws/web/feat/login-page": ["libs/web/feat/login-page/src/index.ts"],
       "@nx-ws/web/shared/config": ["libs/web/shared/config/src/index.ts"],
       "@nx-ws/web/shared/constants": ["libs/web/shared/constants/src/index.ts"],
+      "@nx-ws/web/shared/directives/click-outside": ["libs/web/shared/directives/click-outside/src/index.ts"],
       "@nx-ws/web/shared/guards/auth-guard": ["libs/web/shared/guards/auth-guard/src/index.ts"],
       "@nx-ws/web/shared/interceptors/auth-interceptor": ["libs/web/shared/interceptors/auth-interceptor/src/index.ts"],
       "@nx-ws/web/shared/interceptors/lang-interceptor": ["libs/web/shared/interceptors/lang-interceptor/src/index.ts"],
